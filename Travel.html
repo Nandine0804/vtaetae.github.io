@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Explore</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="Travel.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--X-UA-Compatible is a document mode meta tag,that allows web authors to choose what version of Internet Explorer
+         the page should be rendered as-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">EXPLORE</h1>
+        <ul class="nav-links">
+            <li class="active">
+                <a href="#"></a>Home</li>
+            <li>
+                <a href="#"></a>Tours</li>
+            <li>
+                <a href="#"></a>Explore</li>
+            <li>
+                <a href="#"></a>About</li>
+            <li class="ctn">
+                <a href="#"></a>Contact</li>
+        </ul>
+        <img src="menu-btn.png" alt=" " class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Life is a Journey, Not a Destination</h2>
+            <div class="line"></div>
+            <h3>Live Laugh Travel</h3>
+            <a href="#" class="ctn">Learn more</a>
+
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img1.png" alt="">
+                <h4>Trekking</h4>
+                <p>Trekking is a form of walking, undertaken with the specific purpose of exploring and enjoying the scenery.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="img2.png" alt="">
+                <h4>Walking </h4>
+                <p>The most important part is that a walking tour is conducted by tour guides with lots of local knowledge of the city.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>TRAVEL SPOT</h1>
+            <div class="line"></div>
+            <p> Welcome to Travel Spot, Travel Spot is all about exploring the world. If you're a hodophilic , this is your place. </p>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>No matter how many places are on your bucket list, this list will get you dreaming.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img3.png" alt="">
+                    <img src="img4.png" alt="">
+                    <img src="img5.png" alt="">
+                    <img src="img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>TRAVEL SPOT</p>
+        <p>Copyright &copy since 2020</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navlinks = document.querySelector(".nav-links");
+        menuBtn.addEventListener("click", () => {
+            navlinks.classList.toggle('mobile-menu');
+        })
+    </script>
+
+</body>
+
+</html>
